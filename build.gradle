@@ -16,11 +16,6 @@ repositories {
     maven {
         url = uri('https://repo.maven.apache.org/maven2/')
     }
-    
-    maven { 
-        name 'jitpack'
-        url 'https://www.jitpack.io' 
-    }
 
     // Velocity-API / PaperLib
     maven {
@@ -73,8 +68,6 @@ dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.20.1-R0.1-SNAPSHOT'
 
     compileOnly files('libs/VelocityVanish-3.23.1.jar')
-    // Import with jitpack.io
-    //implementation 'com.github.Syrent:VelocityVanish:v3.12.0'
 
     // gson is not exist in legacy minecraft version
     implementation 'com.google.code.gson:gson:2.10.1'
