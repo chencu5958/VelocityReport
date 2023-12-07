@@ -120,4 +120,4 @@ run/
 # Remove Ignore List
 
 !/gradle/wrapper/gradle-wrapper.jar
-!/libs/VelocityVanish-3.23.1.jar
+!/libs/VelocityVanish-*.jar
